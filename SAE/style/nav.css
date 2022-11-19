@@ -1,13 +1,60 @@
-nav{
+.menu{
     display: flex;
-    background-color: green;
     margin-left:80%;
+    position: absolute;
     position: fixed;
-    justify-content: space-between;
-    top: 0%;
+    top: 0;
+    right: 0;
+
 }
-#Haut_droit{
+.menu nav>ul{
+    display: inline-flex;
+    padding: 0;
+    justify-content: space-around;
+}
+.menu li.déroulant{
+    list-style-type: none;
+    font-size: 1em;
+    height: 20px;
+    width: 139px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    margin: auto;
+    
+}
+.menu .click{
+    list-style-type: none;
+    font-size: 1em;
+    height: 20px;
+    width: 139px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    margin: auto;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+
+
+}
+.menu li.déroulant:hover ul.sous{
+    display: inline-block;
+    background-color: gray; 
+}
+.menu li.déroulant:hover ul.sous li{
     display: flex;
     
-    
+}
+
+.sous{
+    display: none;
+}
+ul{
+    padding: 0;
 }
