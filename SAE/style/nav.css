@@ -14,14 +14,14 @@
 }
 .menu li.déroulant{
     list-style-type: none;
-    font-size: 1em;
+    font-size: 12pt;
     height: 20px;
     width: 139px;
     align-items: center;
     justify-content: center;
     text-align: center;
     float: left;
-    margin: auto;
+    margin: 0 auto;
     
 }
 .menu .click{
@@ -39,22 +39,39 @@
     color: white;
     text-decoration: none;
     text-align: center;
-    z-index: 1;
+
 
 
 }
 .menu li.déroulant:hover ul.sous{
     display: inline-block;
-    background-color: gray; 
+    background-color: #1c1c1c; 
+    color: white;
+    padding: 2em;
+    margin-top: 1em;
+    margin-right: 157px;
+
 }
 .menu li.déroulant:hover ul.sous li{
-    display: flex;
-    
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 1em;
 }
 
 .sous{
     display: none;
 }
 ul{
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+h2{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    color: white;
+    margin-left: 26px;
+    margin-top: 10px;
+    font-size: 15pt;
 }
