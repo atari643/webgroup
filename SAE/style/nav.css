@@ -80,7 +80,7 @@
         right: 0;
     }
     img {
-        width: 15%;
+        width: 10%;
     }
     .fonction>a {
         display: flex;
@@ -100,8 +100,6 @@
     }
     .menu li.Pestel {
         width: 0 auto;
-        margin-left: 20px;
-        margin-right: 30px;
     }
     .menu .click {
         width: 80px;
