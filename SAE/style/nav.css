@@ -10,8 +10,14 @@
         top: 0;
         left: 0;
     }
+    img {
+        width: 10%;
+    }
     .sous {
         display: none;
+    }
+    .fonction>a {
+        display: flex;
     }
     .menu li.fonction,
     .menu li.Pestel,
@@ -30,7 +36,6 @@
     .menu li a {
         color: white;
         text-decoration: none;
-        text-align: center;
     }
     .menu li.fonction:hover ul.sous,
     .menu li.Pestel:hover ul.sous {
@@ -53,11 +58,6 @@
         justify-content: space-between;
         padding-bottom: 1em;
     }
-    .menu li a {
-        color: white;
-        text-decoration: none;
-        text-align: center;
-    }
 }
 
 #titre2 {
@@ -78,6 +78,12 @@
         position: fixed;
         top: 0;
         right: 0;
+    }
+    img {
+        width: 15%;
+    }
+    .fonction>a {
+        display: flex;
     }
     .menu li.fonction,
     .menu li.Pestel,
