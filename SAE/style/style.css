@@ -1,36 +1,37 @@
-header{
+header {
     background-image: url(/style/blue.jpg);
+    background-size: 100%;
     margin: 0 auto;
-    width: 100%;
+    width: 0 auto;
     height: 336px;
     border: solid navy;
     position: relative;
 }
-#Titre_principal{
+
+#Titre_principal {
     text-align: center;
     margin-top: 114px;
     font-size: 34pt;
 }
 
-body{
-    margin: 0;
+body {
+    margin: 0 auto;
 }
 
-#partie1{
-    background-color:darkblue;
+#partie1 {
+    background-color: darkblue;
 }
 
-button{
+button {
     width: 550px;
     margin-left: 1000px;
-    
 }
 
-h2{
+h2 {
     color: white;
     margin-left: 1100px;
 }
 
-#texte1{
+#texte1 {
     color: white;
 }
