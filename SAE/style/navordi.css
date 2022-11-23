@@ -2,7 +2,6 @@
     .menu {
         display: flex;
         margin-left: 80%;
-        position: absolute;
         position: fixed;
         top: 0;
         right: 0;
@@ -25,12 +24,14 @@
     }
     .menu li.fonction {
         width: 140px;
+        height: 33px;
     }
     .menu li.Pestel {
-        width: 0 auto;
+        width: 140px;
+        height: 33px;
     }
     .menu .click {
-        width: 80px;
+        width: 140px;
     }
     .menu li a {
         color: white;
@@ -45,12 +46,22 @@
         padding: 2em;
         margin-top: 1em;
     }
+    .menu li.fonction:hover ul.sous {
+        left: 7em;
+        position: absolute;
+    }
+    .menu li.Pestel:hover ul.sous {
+        left: 14em;
+        position: absolute;
+        top: 2em;
+    }
     .menu li.fonction:hover ul,
     .menu li.Pestel:hover ul {
         display: inline-block;
         background-color: #1c1c1c;
         color: white;
         padding: 2em;
+        margin-top: 2em;
     }
     .menu li.fonction:hover ul.sous li,
     .menu li.Pestel:hover ul.sous li {
