@@ -1,66 +1,51 @@
 @media screen and (max-width: 701px) {
     .menu {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: black;
-        position: fixed;
         height: 100%;
-        overflow: auto;
+        /* Full-height: remove this if you want "auto" height */
+        width: 300px;
+        /* Set the width of the sidebar */
+        position: fixed;
+        /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1;
+        /* Stay on top */
         top: 0;
+        /* Stay at the top */
         left: 0;
+        font-size: 12px;
+        background-color: #111;
+        /* Black */
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 20px;
+    }
+    .menu a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+    }
+    ul {
+        list-style-type: none;
     }
     .sous {
         display: none;
     }
-    .fonction>a {
-        display: flex;
+    img {
+        width: 9%;
     }
-    .menu li.fonction,
-    .menu li.Pestel,
-    .menu .click {
-        list-style-type: none;
-        font-size: 12pt;
-        padding-top: 20%;
-        background-color: black;
+    .fonction a,
+    .Pestel a {
+        display: inline
     }
-    .menu li.fonction {
-        width: 140px;
+    .menu .sous a:hover {
+        display: inline
     }
-    .menu .click {
-        width: 80px;
+    .menu a:hover {
+        opacity: 0.8;
     }
-    .menu li a {
-        color: white;
-        text-decoration: none;
-    }
-    .menu li.fonction:hover ul.sous,
-    .menu li.Pestel:hover ul.sous {
-        display: inline-block;
-        background-color: black;
-        color: white;
-    }
-    .menu li.fonction:hover ul,
-    .menu li.Pestel:hover ul {
-        display: inline-block;
-        background-color: #1c1c1c;
-        color: white;
-        padding: 2em;
-    }
-    .menu li.fonction:hover ul.sous li,
-    .menu li.Pestel:hover ul.sous li {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 1em;
-    }
-    #titre2 {
-        position: absolute;
-        top: 0;
-        margin: 0;
-        color: white;
-        margin-left: 26px;
-        margin-top: 10px;
-        font-size: 15pt;
+    nav {
+        font-family: 'Raleway', sans-serif;
     }
 }
 
