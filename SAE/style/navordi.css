@@ -1,5 +1,5 @@
 @media screen and (min-width: 700px) {
-    .menu {
+    .menu{
         display: flex;
         margin-left: 80%;
         position: fixed;
@@ -88,5 +88,8 @@
         margin-left: 26px;
         margin-top: 10px;
         font-size: 15pt;
+    }
+    .sidemenu{
+        display: none;
     }
 }
