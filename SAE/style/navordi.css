@@ -1,5 +1,5 @@
 @media screen and (min-width: 700px) {
-    .menu {
+    .menu{
         display: flex;
         margin-left: 80%;
         position: fixed;
@@ -29,6 +29,7 @@
     .menu li.Pestel {
         width: 140px;
         height: 33px;
+        
     }
     .menu .click {
         width: 140px;
@@ -87,5 +88,8 @@
         margin-left: 26px;
         margin-top: 10px;
         font-size: 15pt;
+    }
+    .sidemenu{
+        display: none;
     }
 }
