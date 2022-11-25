@@ -20,6 +20,8 @@ body {
 #partie1 {
     background-color: darkblue;
     padding-bottom: 2%;
+    width: 1838px;
+    height: 412px;
 }
 
 h1 {
@@ -34,6 +36,7 @@ h1 {
 #TITRE2{
     text-align: center;
     color: white;
+    position: absolute;
 }
 
 .fonction1{
