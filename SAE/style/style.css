@@ -18,10 +18,11 @@ body {
 }
 
 #partie1 {
-    background-color: darkblue;
+    background-color: #02133E;
     padding-bottom: 2%;
     width: 1838px;
     height: 412px;
+    
 }
 
 h1 {
@@ -32,6 +33,7 @@ h1 {
 #texte1 {
     color: white;
     text-align: center;
+    margin: 0;
 }
 #TITRE2{
     text-align: center;
@@ -50,7 +52,6 @@ h1 {
     margin-left: 45.7%;
     border-radius: 5px;
     margin-bottom: 30px;
-    position: absolute;
 }
 
 .fonction2{
@@ -75,7 +76,6 @@ h1 {
     width:150px ;
     margin-left: 45.7%;
     border-radius: 5px;
-    position: absolute;
 
 }
 
