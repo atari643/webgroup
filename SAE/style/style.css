@@ -20,6 +20,8 @@ body {
 #partie1 {
     background-color: darkblue;
     padding-bottom: 2%;
+    width: 1838px;
+    height: 412px;
 }
 
 h1 {
@@ -34,6 +36,7 @@ h1 {
 #TITRE2{
     text-align: center;
     color: white;
+    position: absolute;
 }
 
 .fonction1{
@@ -47,6 +50,7 @@ h1 {
     margin-left: 45.7%;
     border-radius: 5px;
     margin-bottom: 30px;
+    position: absolute;
 }
 
 .fonction2{
@@ -59,6 +63,7 @@ h1 {
     margin-left: 45.7%;
     border-radius: 5px;
     margin-bottom: 30px;
+    position: absolute;
 }
 
 .fonction3{
@@ -70,6 +75,7 @@ h1 {
     width:150px ;
     margin-left: 45.7%;
     border-radius: 5px;
+    position: absolute;
 
 }
 
@@ -92,6 +98,7 @@ h1 {
     background-color: white;
     width:150px ;
     border-radius: 5px;
+    display: ;
 }
 
 .fonction5{
@@ -104,6 +111,7 @@ h1 {
     margin-left: 70%;
     border-radius: 5px;
     position: relative;
+    z-index: initial;
 }
 
 .fonction6{
