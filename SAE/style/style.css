@@ -47,6 +47,7 @@ h1 {
     margin-left: 45.7%;
     border-radius: 5px;
     margin-bottom: 30px;
+    position: absolute;
 }
 
 .fonction2{
@@ -59,6 +60,7 @@ h1 {
     margin-left: 45.7%;
     border-radius: 5px;
     margin-bottom: 30px;
+    position: absolute;
 }
 
 .fonction3{
@@ -70,6 +72,7 @@ h1 {
     width:150px ;
     margin-left: 45.7%;
     border-radius: 5px;
+    position: absolute;
 
 }
 
@@ -92,6 +95,7 @@ h1 {
     background-color: white;
     width:150px ;
     border-radius: 5px;
+    display: ;
 }
 
 .fonction5{
