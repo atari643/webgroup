@@ -19,6 +19,7 @@ body {
 
 #partie1 {
     background-color: darkblue;
+    padding-bottom: 2%;
 }
 
 h1 {
@@ -83,15 +84,14 @@ h1 {
 }
 
 .fonction4{
+    margin-left: 70%;
     align-content: center;
     text-align: center;
     color: black;
     padding: 15px;
     background-color: white;
     width:150px ;
-    margin-left: 70%;
     border-radius: 5px;
-    position: absolute;
 }
 
 .fonction5{
@@ -103,7 +103,7 @@ h1 {
     width:150px ;
     margin-left: 70%;
     border-radius: 5px;
-    position: absolute;
+    position: relative;
 }
 
 .fonction6{
@@ -115,5 +115,5 @@ h1 {
     width:150px ;
     margin-left: 70%;
     border-radius: 5px;
-    position: absolute;
+    position: relative;
 }
