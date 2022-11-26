@@ -32,13 +32,14 @@ h1 {
 }
 
 .block {
-    position: relative;
-    width: 100%;
+    max-width: 1184px;
+    width: 95%;
     border-top: solid white 1px;
     border-bottom: solid whitesmoke 1px;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-right: auto;
+    margin-left: auto;
     height: 96%;
+    position: relative;
 }
 
 #texte1 {
@@ -54,10 +55,10 @@ h1 {
 }
 
 .img1 {
-    position: absolute;
     margin-top: 11em;
     bottom: 30px;
     left: 0;
+    position: absolute;
 }
 
 .fonction1 {
