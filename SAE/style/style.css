@@ -19,11 +19,11 @@ body {
 
 #partie1 {
     background-color: #02133E;
-    padding-bottom: 2%;
-    width: 0 auto;
+    width: 100vw;
     height: 412px;
-    position: relative;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -31,96 +31,99 @@ h1 {
     font-size: 34pt;
 }
 
+.block {
+    position: relative;
+    width: 63%;
+    border-top: solid white 1px;
+    border-bottom: solid whitesmoke 1px;
+    height: 96%;
+}
+
 #texte1 {
     color: white;
     text-align: center;
     margin: 0;
 }
-#TITRE2{
+
+#TITRE2 {
     text-align: center;
     color: white;
     position: absolute;
 }
 
-.fonction1{
+.img1 {
+    position: absolute;
+    margin-top: 11em;
+}
+
+.fonction1 {
     margin-top: 2%;
     align-content: center;
     text-align: center;
     color: black;
     padding: 15px;
     background-color: white;
-    width:150px ;
+    width: 150px;
     margin-left: 45.7%;
     border-radius: 5px;
     margin-bottom: 30px;
 }
 
-.fonction2{
+.fonction2 {
     align-content: center;
     text-align: center;
     color: black;
     padding: 15px;
     background-color: white;
-    width:150px ;
+    width: 150px;
     margin-left: 45.7%;
     border-radius: 5px;
     margin-bottom: 30px;
     position: absolute;
 }
 
-.fonction3{
+.fonction3 {
     align-content: center;
     text-align: center;
     color: black;
     padding: 15px;
     background-color: white;
-    width:150px ;
+    width: 150px;
     margin-left: 45.7%;
     border-radius: 5px;
-
 }
 
-.img1{
-    padding: 15px;
-    border-radius: 5px;
-    position: absolute;
-    margin-left: 338px;
-    align-items: flex-start;
-    height:192px;
-    width:376px;
-}
-
-.fonction4{
+.fonction4 {
     margin-left: 70%;
     align-content: center;
     text-align: center;
     color: black;
     padding: 15px;
     background-color: white;
-    width:150px ;
+    width: 150px;
     border-radius: 5px;
 }
 
-.fonction5{
+.fonction5 {
     align-content: center;
     text-align: center;
     color: black;
     padding: 15px;
     background-color: white;
-    width:150px ;
+    width: 150px;
     margin-left: 70%;
     border-radius: 5px;
     position: relative;
     z-index: initial;
 }
 
-.fonction6{
+.fonction6 {
     align-content: center;
     text-align: center;
     color: black;
     padding: 15px;
     background-color: white;
-    width:150px ;
+    width: 150px;
     margin-left: 70%;
     border-radius: 5px;
     position: relative;

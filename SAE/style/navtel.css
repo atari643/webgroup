@@ -1,5 +1,5 @@
 @media screen and (max-width: 701px) {
-    .menu{
+    .menu {
         height: 100%;
         width: 19em;
         position: fixed;
@@ -7,7 +7,7 @@
         top: 0;
         left: 0;
         font-size: 10px;
-        background-color: rgba(28,28,28,1);
+        background-color: rgba(28, 28, 28, 1);
         overflow-x: hidden;
         padding-top: 20px;
     }
@@ -18,13 +18,13 @@
         color: white;
         display: block;
     }
-    ul.right{
+    ul.right {
         padding-left: 0;
     }
     ul {
         list-style-type: none;
     }
-    img {
+    .flèche {
         width: 9%;
     }
     .fonction a,
@@ -48,18 +48,13 @@
         margin-top: 10px;
         font-size: 15pt;
     }
-    .sidemenu{
+    .sidemenu {
         position: absolute;
         top: 0;
         margin: 13px;
         color: white;
-
     }
-    .sidemenu>img{
+    .sidemenu>img {
         width: 2%;
     }
 }
-
-  
-
-

@@ -1,12 +1,12 @@
 @media screen and (min-width: 700px) {
-    .menu{
+    .menu {
         display: flex;
         margin-left: 80%;
         position: fixed;
         top: 0;
         right: 0;
     }
-    img {
+    .flèche {
         width: 10%;
     }
     .fonction>a {
@@ -29,7 +29,6 @@
     .menu li.Pestel {
         width: 140px;
         height: 33px;
-        
     }
     .menu .click {
         width: 140px;
@@ -89,7 +88,7 @@
         margin-top: 10px;
         font-size: 15pt;
     }
-    .sidemenu{
+    .sidemenu {
         display: none;
     }
 }
