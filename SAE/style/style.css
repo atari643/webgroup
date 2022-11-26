@@ -40,6 +40,8 @@ h1 {
     margin-left: auto;
     height: 96%;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #texte1 {
@@ -61,75 +63,44 @@ h1 {
     position: absolute;
 }
 
-.fonction1 {
-    margin-top: 2%;
-    align-content: center;
-    text-align: center;
-    color: black;
-    padding: 15px;
-    background-color: white;
-    width: 150px;
-    margin-left: 45.7%;
-    border-radius: 5px;
-    margin-bottom: 30px;
+.primaire,
+.secondaire {
+    display: inline-flex;
+    margin-left: 32px;
+    width: 30%;
+    align-self: flex-end;
+    flex-direction: column;
+    margin-bottom: 4%;
+    justify-content: space-between;
 }
 
-.fonction2 {
-    align-content: center;
-    text-align: center;
-    color: black;
-    padding: 15px;
-    background-color: white;
-    width: 150px;
-    margin-left: 45.7%;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    position: absolute;
-}
-
-.fonction3 {
-    align-content: center;
-    text-align: center;
-    color: black;
-    padding: 15px;
-    background-color: white;
-    width: 150px;
-    margin-left: 45.7%;
-    border-radius: 5px;
-}
-
-.fonction4 {
-    margin-left: 70%;
-    align-content: center;
-    text-align: center;
-    color: black;
-    padding: 15px;
-    background-color: white;
-    width: 150px;
-    border-radius: 5px;
-}
-
-.fonction5 {
-    align-content: center;
-    text-align: center;
-    color: black;
-    padding: 15px;
-    background-color: white;
-    width: 150px;
-    margin-left: 70%;
-    border-radius: 5px;
-    position: relative;
-    z-index: initial;
-}
-
+.fonction1,
+.fonction2,
+.fonction3,
+.fonction4,
+.fonction5,
 .fonction6 {
     align-content: center;
     text-align: center;
     color: black;
-    padding: 15px;
+    max-width: 389px;
+    max-height: 36px;
+    height: auto;
+    padding-left: 12px;
+    padding-right: 12px;
     background-color: white;
-    width: 150px;
-    margin-left: 70%;
-    border-radius: 5px;
-    position: relative;
+    width: auto;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+a {
+    font-size: 12pt;
+}
+
+.fonction2,
+.fonction3,
+.fonction5,
+.fonction6 {
+    margin-top: 30px;
 }
