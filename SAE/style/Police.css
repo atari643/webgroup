@@ -1,3 +1,8 @@
 *:not(nav){
     font-family: Arial;
 }
+a,
+#titre2 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
