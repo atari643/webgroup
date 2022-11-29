@@ -16,6 +16,7 @@
 
 <body>
     <header>
+        <span onclick="openNav()">&#9776; open</span>
         <div id="Titre_principal">
             <h1>Type-Analyse-Entreprise
             </h1>
@@ -23,7 +24,8 @@
         <div class="en-tête">
             <h2 id="titre2">Exemple-Analyse-Environnement</h2>
         </div>
-        <div class="menu">
+        <div id="menu" class="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
             <ul class="right">
                 <li class="click"><a href="Projet.html">Accueil</a>
                 </li>
@@ -75,13 +77,13 @@
         </div>
     </header>
     <div id="partie1">
-        <div class="block 1">
+        <div class="block">
             <h2 id="TITRE2">Fonction d'une entreprise</h2>
             <div class="texte1">
                 <h3>1 exemple par fonction</h3>
             </div>
             <div class="imagebox">
-                <img class="img1" src="fonctions.png" alt="travail"/>
+                <img class="img1" src="fonctions.png" alt="travail" />
             </div>
             <div class="primaire">
                 <div class="fonction1">
@@ -110,7 +112,7 @@
     <div id="partie2">
         <div class="block">
             <h2 id="TITRE3">Analyse Environnement (PESTEL)</h2>
-            <div class="primaire">
+            <div class="primaire P">
                 <div class="fonction1 Pestel1">
                     <a href="fonctions.html#approvisionnement">Politique</a>
                 </div>
@@ -121,7 +123,7 @@
                     <a href="fonctions.html#comerciale">Socio-culturel</a>
                 </div>
             </div>
-            <div class="secondaire">
+            <div class="secondaire P">
                 <div class="fonction4 Pestel1">
                     <a href="fonctions.html#grh">Technologique</a>
                 </div>
@@ -133,12 +135,21 @@
                 </div>
             </div>
             <div class="imagebox img2">
-                <img class="img1 Pestel2" src="fonctions.png" alt="travail"/>
+                <img class="img1 Pestel2" src="fonctions.png" alt="travail" />
             </div>
         </div>
     </div>
 
     <footer></footer>
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
 </body>
 
 </html>
