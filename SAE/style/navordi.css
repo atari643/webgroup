@@ -7,6 +7,9 @@
         top: 0;
         right: 0;
     }
+    .menu .closebtn {
+        display: none;
+    }
     .flèche {
         width: 10%;
     }

@@ -11,6 +11,20 @@
         overflow-x: hidden;
         padding-top: 20px;
     }
+    .menu .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    span {
+        color: white;
+        position: absolute;
+        bottom: 90%;
+        left: 1%;
+        cursor: pointer;
+    }
     .menu a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
