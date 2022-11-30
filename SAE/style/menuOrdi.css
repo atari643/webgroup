@@ -107,7 +107,6 @@ h1 {
     padding-left: 14px;
     padding-right: 14px;
 }
-
 .fonction1,
 .fonction2,
 .fonction3,
@@ -145,11 +144,5 @@ a {
     color: white;
     font-family: 'Raleway', sans-serif;
 
-}
-.imagebox.img2{
-    height: 340px;
-}
-.img1.Pestel2{
-    margin-top: 127px;
 }
 }
