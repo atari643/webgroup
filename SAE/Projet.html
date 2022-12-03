@@ -24,7 +24,57 @@
         <div class="en-tête">
             <h2 id="titre2">Exemple-Analyse-Environnement</h2>
         </div>
-        <div id="menu" class="menu">
+        <div id="ordimenu">
+            <ul class="right">
+                <li class="click"><a href="Projet.html">Accueil</a>
+                </li>
+                <li class="fonction"><a href="Projet.html">fonction Entreprise</a><img class="flèche" src="style/iconefleche.png" alt="flèche">
+                    <ul class="sous">
+                        <li>
+                            <a href="Projet.html">Approvisionnement</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Production</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Commercial</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">GRH</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Finance</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Comtabilité</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="Pestel"><a href="Projet.html">Pestel</a><img class="flèche" src="style/iconefleche.png" alt="flèche">
+                    <ul class="sous">
+                        <li>
+                            <a href="Projet.html">Politique</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Economique</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Socio-culturel</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Technologique</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Ecologique</a>
+                        </li>
+                        <li>
+                            <a href="Projet.html">Légal (on working)</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="telmenu">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
             <ul class="right">
                 <li class="click"><a href="Projet.html">Accueil</a>
@@ -125,7 +175,8 @@
             </div>
             <div class="secondaire P">
                 <div class="fonction4 Pestel1">
-                    <a href="Porter.html#technologique">Technologique</a>
+                    <a href="Porter.html#technologique">Technologique lorem1000000000000
+                    </a>
                 </div>
                 <div class="fonction5 Pestel1">
                     <a href="Porter.html#ecologique">Ecologique</a>
@@ -143,13 +194,15 @@
     <footer></footer>
     <script>
         function openNav() {
-            document.getElementById("menu").style.width = "250px";
+            document.getElementById("telmenu").style.width = "35%"
+            document.getElementById("ordimenu").style.width = "0px"
         }
 
         function closeNav() {
-            document.getElementById("menu").style.width = "0px";
+            document.getElementById("telmenu").style.width = "0px"
+            document.getElementById("ordimenu").style.width = "auto"
         }
+        
     </script>
 </body>
-
 </html>
