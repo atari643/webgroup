@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-    .menu {
+    #ordimenu {
         display: flex;
         margin-left: 80%;
         position: fixed;
@@ -7,18 +7,21 @@
         top: 0;
         right: 0;
     }
-    .flèche {
-        width: 10%;
+    #telmenu{
+        display: none;
     }
     .closebtn{
         display: none;
     }
+    .flèche {
+        width: 10%;
+    }
     .fonction>a {
         display: flex;
     }
-    .menu li.fonction,
-    .menu li.Pestel,
-    .menu .click {
+    #ordimenu li.fonction,
+    #ordimenu li.Pestel,
+    #ordimenu .click {
         list-style-type: none;
         font-size: 12pt;
         height: 20px;
@@ -26,49 +29,49 @@
         float: left;
         margin: 0 auto;
     }
-    .menu li.fonction {
+    #ordimenu li.fonction {
         width: 140px;
         height: 33px;
     }
-    .menu li.Pestel {
+    #ordimenu li.Pestel {
         width: 140px;
         height: 33px;
     }
-    .menu .click {
+    #ordimenu .click {
         width: 140px;
     }
-    .menu li a {
+    #ordimenu li a {
         color: white;
         text-decoration: none;
         text-align: center;
     }
-    .menu li.fonction:hover ul.sous,
-    .menu li.Pestel:hover ul.sous {
+    #ordimenu li.fonction:hover ul.sous,
+    #ordimenu li.Pestel:hover ul.sous {
         display: inline-block;
         background-color: #1c1c1c;
         color: white;
         padding: 2em;
         margin-top: 1em;
     }
-    .menu li.fonction:hover ul.sous {
+    #ordimenu li.fonction:hover ul.sous {
         left: 7em;
         position: absolute;
     }
-    .menu li.Pestel:hover ul.sous {
+    #ordimenu li.Pestel:hover ul.sous {
         left: 14em;
         position: absolute;
         top: 2em;
     }
-    .menu li.fonction:hover ul,
-    .menu li.Pestel:hover ul {
+    #ordimenu li.fonction:hover ul,
+    #ordimenu li.Pestel:hover ul {
         display: inline-block;
         background-color: #1c1c1c;
         color: white;
         padding: 2em;
         margin-top: 2em;
     }
-    .menu li.fonction:hover ul.sous li,
-    .menu li.Pestel:hover ul.sous li {
+    #ordimenu li.fonction:hover ul.sous li,
+    #ordimenu li.Pestel:hover ul.sous li {
         display: flex;
         justify-content: space-between;
         padding-bottom: 1em;
@@ -91,8 +94,5 @@
         margin-left: 26px;
         margin-top: 10px;
         font-size: 15pt;
-    }
-    .sidemenu {
-        display: none;
     }
 }

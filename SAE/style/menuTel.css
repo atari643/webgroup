@@ -7,6 +7,11 @@
         height: 336px;
         position: relative;
     }
+    span{
+        color: white;
+        position: fixed;
+        padding: 2%;
+    }
     #Titre_principal {
         text-align: center;
         padding-top: 114px;
@@ -141,6 +146,7 @@
         color: white;
         font-family: 'Raleway', sans-serif;
     }
+
     .imagebox.P{
         height: 201px;
         width: 374px;
@@ -154,5 +160,8 @@
         margin-top: 1em;
         margin-bottom: 1em;
         box-sizing: content-box;
+    }
+    #telordi{
+        display: none;
     }
 }
