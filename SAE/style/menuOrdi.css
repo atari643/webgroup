@@ -142,5 +142,44 @@
         font-family: 'Raleway', sans-serif;
     
     }
+    .bas{
+        height: 120px;
+        background-color: #02133E;
+        
+    }
+    footer{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        height: 70px;
+        max-width: 1154px;
+        max-height: 398px;
+        width: 92%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        display: flex;
+        margin-bottom: 10px;
+        position: relative;
+        margin-top: 10px;
+        
+    }
+    footer div{
+        width: 20%;
+    }
+    footer ul{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        color:white;
+        width: 100%;
+        justify-items: flex-start;
+    }
+    footer a{
+        color: white;
+    }
+    footer li{
+        padding-top: 10px;
+    }
+    
     }
     
