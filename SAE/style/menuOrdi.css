@@ -16,6 +16,12 @@
     body {
         margin: 0 auto;
     }
+    .closebtn{
+        display: none;
+    }
+    span{
+        display: none;
+    }
     
     #partie1 {
         width: 100%;
