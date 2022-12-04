@@ -11,8 +11,16 @@
         overflow-x: hidden;
         padding-top: 20px;
     }
-    span{
+    #telmenu li.click,
+    #menu li.Pestel {
+        display: flex;
+        justify-content: center;
+    }
+    span {
         z-index: 1;
+    }
+    #telmenu .fonction {
+        margin-top: 20px;
     }
     #telmenu a {
         padding: 6px 8px 6px 16px;
@@ -20,12 +28,16 @@
         font-size: 11pt;
         color: white;
         display: inline;
+        text-align: center;
     }
     ul.right {
         padding-left: 0;
     }
     ul {
         list-style-type: none;
+    }
+    #telmenu .sous>li {
+        margin-top: 20px;
     }
     .flèche {
         width: 9%;
@@ -34,11 +46,8 @@
     .Pestel a {
         display: inline
     }
-    #telmenu .sous:hover a:hover {
-        display: flex
-    }
     #telmenu a:hover {
-        opacity: 0.8;
+        opacity: 0.3;
     }
     nav {
         font-family: 'Raleway', sans-serif;
@@ -51,9 +60,10 @@
         margin-top: 10px;
         font-size: 15pt;
     }
-    #ordimenu{
+    #ordimenu {
         display: none;
     }
-
-    
+    #ordimenu.right {
+        display: none;
+    }
 }
