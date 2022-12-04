@@ -1,23 +1,27 @@
 @media screen and (min-width: 768px) {
     #ordimenu {
         display: flex;
-        margin-left: 80%;
         position: fixed;
         z-index: 1;
         top: 0;
         right: 0;
     }
-    #telmenu{
+    #telmenu {
         display: none;
     }
-    .closebtn{
+    .closebtn {
         display: none;
+    }
+    .en-tête {
+        width: 100vw;
+        height: 3.5em;
+        position: fixed;
+        top: 0;
+        background-color: rgba(28, 28, 28, 1);
+        z-index: 1;
     }
     .flèche {
-        width: 10%;
-    }
-    .fonction>a {
-        display: flex;
+        width: 9%;
     }
     #ordimenu li.fonction,
     #ordimenu li.Pestel,
@@ -28,18 +32,17 @@
         text-align: center;
         float: left;
         margin: 0 auto;
-        
     }
     #ordimenu li.fonction {
-        width: 140px;
+        width: 155px;
         height: 33px;
     }
     #ordimenu li.Pestel {
-        width: 140px;
+        width: 155px;
         height: 33px;
     }
     #ordimenu .click {
-        width: 140px;
+        width: 155px;
     }
     #ordimenu li a {
         color: white;
