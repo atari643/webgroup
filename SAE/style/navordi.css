@@ -22,7 +22,7 @@
     }
     #ordimenu li.fonction,
     #ordimenu li.Pestel,
-    #ordimenu .click {
+    #ordimenu li.click {
         list-style-type: none;
         font-size: 12pt;
         height: 20px;
