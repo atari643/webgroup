@@ -11,6 +11,9 @@
         color: white;
         position: fixed;
         padding: 2%;
+        text-shadow:0 1px 0 black;
+        font-size: 15pt;
+        
     }
     #Titre_principal {
         text-align: center;
