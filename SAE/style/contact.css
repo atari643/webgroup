@@ -25,6 +25,7 @@
 #fonctions div:nth-child(3){
     max-height: 300px;
     max-width: 300px;
+    min-width: 300px;
     height: 300px;
     width: 300px;
 

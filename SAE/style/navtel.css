@@ -11,15 +11,15 @@
         overflow-x: hidden;
         padding-top: 20px;
     }
-    #telmenu li.click,
-    #menu li.Pestel {
+    #telmenu>li.click {
         display: flex;
         justify-content: center;
     }
     span {
         z-index: 1;
     }
-    #telmenu .fonction {
+    #telmenu .fonction,
+    #telmenu .Pestel {
         margin-top: 20px;
     }
     #telmenu a {
@@ -43,7 +43,8 @@
         width: 9%;
     }
     .fonction a,
-    .Pestel a {
+    .Pestel a,
+    .click a {
         display: inline
     }
     #telmenu a:hover {
