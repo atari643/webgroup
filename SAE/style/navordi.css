@@ -38,8 +38,9 @@
         width: 155px;
         height: 33px;
     }
-    #ordimenu .click {
+    #ordimenu li.click {
         width: 155px;
+        height: 33px;
     }
     #ordimenu li a {
         color: white;
@@ -47,7 +48,8 @@
         text-align: center;
     }
     #ordimenu li.fonction:hover ul.sous,
-    #ordimenu li.Pestel:hover ul.sous {
+    #ordimenu li.Pestel:hover ul.sous,
+    #ordimenu li.click:hover ul.sous {
         display: inline-block;
         background-color: #1c1c1c;
         color: white;
@@ -57,14 +59,21 @@
     #ordimenu li.fonction:hover ul.sous {
         left: 7em;
         position: absolute;
+        top: 2em;
     }
     #ordimenu li.Pestel:hover ul.sous {
         left: 14em;
         position: absolute;
         top: 2em;
     }
+    #ordimenu li.click:hover ul.sous {
+        right: 20em;
+        position: absolute;
+        top: 2em;
+    }
     #ordimenu li.fonction:hover ul,
-    #ordimenu li.Pestel:hover ul {
+    #ordimenu li.Pestel:hover ul,
+    #ordimenu li.click:hover ul {
         display: inline-block;
         background-color: #1c1c1c;
         color: white;
@@ -72,7 +81,8 @@
         margin-top: 2em;
     }
     #ordimenu li.fonction:hover ul.sous li,
-    #ordimenu li.Pestel:hover ul.sous li {
+    #ordimenu li.Pestel:hover ul.sous li,
+    #ordimenu li.click:hover ul.sous li {
         display: flex;
         justify-content: space-between;
         padding-bottom: 1em;
