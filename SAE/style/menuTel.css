@@ -11,9 +11,9 @@
         color: white;
         position: fixed;
         padding: 2%;
-        text-shadow:0 1px 0 black;
+        text-shadow: 0 1px 0 black;
         font-size: 15pt;
-        
+        cursor: pointer;
     }
     #Titre_principal {
         text-align: center;
@@ -121,6 +121,7 @@
     .fonction4,
     .fonction5,
     .fonction6 {
+        cursor: pointer;
         align-content: center;
         text-align: center;
         color: black;
