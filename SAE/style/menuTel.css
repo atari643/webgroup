@@ -1,11 +1,12 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     header {
         background-image: url(blue.jpg);
-        background-size: 112% auto;
+        background-size: 112%;
         margin: 0 auto;
         width: 100%;
         height: 336px;
         position: relative;
+        background-size: cover;
     }
     span {
         color: white;
@@ -42,7 +43,7 @@
     }
     h1 {
         color: white;
-        font-size: 34pt;
+        font-size: 2em;
     }
     * {
         box-sizing: border-box;
