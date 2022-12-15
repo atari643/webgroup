@@ -32,7 +32,7 @@
     }
     h1 {
         color: white;
-        font-size: 34pt;
+        font-size: 3.4em;
     }
     * {
         box-sizing: border-box;
@@ -120,7 +120,7 @@
         border-radius: 4px;
     }
     a {
-        font-size: 12pt;
+        font-size: 1em;
     }
     .fonction2,
     .fonction3,
