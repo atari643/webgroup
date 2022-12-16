@@ -29,7 +29,9 @@
     width: 300px;
 
 }
-
+[required]:invalid{
+    border:1px solid red;
+}
 #msg{
     width: 100%;
     height: 100%;
