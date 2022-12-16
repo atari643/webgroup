@@ -9,12 +9,14 @@
     align-items: center;
     flex-direction: column;
     max-height: 100%;
-    height: 100%;
+    height: 30em;
+    
 }
 #fonctions div {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 #mail {
@@ -40,11 +42,5 @@
     box-sizing: border-box;
 }
 #fonctions>input{
-    height: auto;
-}
-.bas{
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
     height: auto;
 }

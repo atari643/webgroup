@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 808px) {
     #ordimenu {
         display: flex;
         position: fixed;
@@ -30,15 +30,10 @@
         float: left;
         margin: 0 auto;
     }
-    #ordimenu li.fonction {
-        width: 155px;
-        height: 33px;
-    }
-    #ordimenu li.Pestel {
-        width: 155px;
-        height: 33px;
-    }
-    #ordimenu li.click {
+    #ordimenu li.fonction,
+    #ordimenu li.Pestel,
+    #ordimenu li.click
+      {
         width: 155px;
         height: 33px;
     }

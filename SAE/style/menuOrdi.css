@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     header {
         background-image: url(blue.jpg);
         background-size: 112% auto;
@@ -137,7 +137,7 @@
     }
     .bas {
         height: 120px;
-        background-color: #02133E;
+        background-color: RGB(20, 21, 52);
     }
     footer {
         padding-top: 24px;
